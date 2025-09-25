@@ -1,0 +1,15 @@
+numpy>=1.23
+torch>=2.0
+xarray>=2023.9
+netcdf4
+pyyaml>=6.0
+
+[dev]
+black
+ruff
+mypy
+pytest
+
+[docs]
+jupyter
+matplotlib
