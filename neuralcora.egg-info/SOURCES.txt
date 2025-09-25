@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 neuralcora/__init__.py

@@ -5,6 +5,7 @@ Summary: NeuralCora: CNN-based coastal zeta forecasting framework
 Author: NeuralCora Team
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: numpy>=1.23
 Requires-Dist: torch>=2.0
 Requires-Dist: xarray>=2023.9
@@ -18,6 +19,7 @@ Requires-Dist: pytest; extra == "dev"
 Provides-Extra: docs
 Requires-Dist: jupyter; extra == "docs"
 Requires-Dist: matplotlib; extra == "docs"
+Dynamic: license-file
 
 # NeuralCora
 
