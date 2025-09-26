@@ -3,7 +3,7 @@ notes: null
 
 data:
   dataset_name: cora
-  dataset_path: /content/drive/MyDrive/neuralcora/data/NY_2013_180_360.nc
+  dataset_path: /content/drive/MyDrive/neuralcora/data/NY_2013_180_360_demo.nc
   mask_path: /content/drive/MyDrive/neuralcora/data/real_land_mask_180_360.nc
   input_steps: 1
   forecast_steps: 6
@@ -19,6 +19,7 @@ data:
 
 model:
   name: simple_cnn
+  # To do: resnet, unet, vit
   input_channels: 1
   output_channels: 6
   hidden_channels:
@@ -36,3 +37,5 @@ training:
   log_interval: 25
   save_dir: runs
   gradient_clip_norm: null
+
+# To do: evaluation:
